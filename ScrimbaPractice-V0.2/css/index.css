@@ -1,0 +1,83 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.6;
+    color: #fff; 
+    background: #1d261a; 
+    font-size: 21px;
+}
+h1, h2, h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+}
+a:hover,
+a:focus {
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: .5em 1.25em;
+    color: rgb(16, 15, 15);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #0af674;
+}
+
+.btn:hover,
+.btn:focus {
+    background: #f0039d;
+}
+.container {
+    padding: 20px;
+    margin-bottom: 50px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.columns {
+
+    display: flex;
+}
+
+.hero {
+    background-image: url("../images/giphy.gif");
+    padding: 10px 10px;
+    background-size: cover;
+    color: rgb(247, 249, 251);
+
+}
+
+.col {
+    margin-right: 10px;
+}
+
+.history {
+    margin-top: 0px;
+    padding: 10px;
+    background-image: url("../images/history-background.jpg");
+    background-size: cover;
+}
+
+.footer {
+    background-image: url("../images/792688.jpg");
+    background-size: cover;
+    padding: 10px;
+    color: black;
+    height: 500px;
+}
+
+.containerFooter {
+    padding: 20px;
+    margin-top: 60px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}

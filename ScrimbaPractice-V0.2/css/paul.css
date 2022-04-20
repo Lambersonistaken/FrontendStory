@@ -1,0 +1,66 @@
+.container {
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 800px;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 75%;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.6;
+    color: #fff; 
+    background: #1d261a; 
+    font-size: 21px;
+}
+h1, h2, h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+}
+.columns {
+    display: flex;
+}
+
+.hero {
+    background-image: url("../images/heroback.jpg");
+    background-size: cover;
+    padding: 10px;
+}
+
+.biography {
+    background-image: url("../images/paul2.PNG");
+    background-size: cover;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.footer{
+    background-image: url("../images/rip.jpg");
+    padding: 5px;
+}
+a:hover,
+a:focus {
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: .5em 1.25em;
+    color: rgb(16, 15, 15);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #0af674;
+}
+
+.btn:hover,
+.btn:focus {
+    background: #f0039d;
+}
