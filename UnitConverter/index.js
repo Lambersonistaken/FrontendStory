@@ -1,7 +1,11 @@
-let userInput = document.getElementById("number-to-convert").innerText
+// let userInput = document.getElementById("number-to-convert").innerText
 let lenghtP = document.getElementById("Length")
 let volumeP = document.getElementById("Volume")
 let massP = document.getElementById("Mass")
+let userInput = prompt("Please enter a value");
+
+
+document.getElementById("number-to-convert").innerText = userInput
 
 function meterToFeet () {
     let sum1 = userInput * 3.2808399
