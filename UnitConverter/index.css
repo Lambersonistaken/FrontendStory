@@ -9,7 +9,6 @@ width: 550px;
 height: 260px;
 margin-left: 0;
 margin-top: 0;
-padding: 1px;
 background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
 
 }
@@ -48,7 +47,9 @@ color: #FFFFFF;
 width: 211px;
 height: 51.23px;
 margin-left: 169px;
-margin-top: 70px;
+margin-top: 80px;
+padding: 0;
+margin-bottom: 30px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -137,7 +138,8 @@ color: #D2D2D2;
 }
 
 #btn {
-    margin-left: 236px;
+    margin-left: 245px;
+    margin-top: 6px;
 }
 
 #all {
@@ -145,4 +147,9 @@ color: #D2D2D2;
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
+}
+
+#user-input {
+    margin-top: 0px;
+    margin-left: 185px;
 }
