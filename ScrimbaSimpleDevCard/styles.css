@@ -1,0 +1,40 @@
+figure {
+    margin: 0px;
+}
+
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    border: 5px solid #FF9505;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #30bced;
+    color: #BCED09;
+    box-shadow: 8px 8px;
+        
+    
+}
+
+.hover-avatar figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover-avatar figure:hover img {
+	-webkit-transform: scale(1.10);
+	transform: scale(1.10);
+}
+
+
