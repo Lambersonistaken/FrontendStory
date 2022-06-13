@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    margin-left: 50px;
+    margin-top: 150px;
+    color: white;
+}
+#yesil-baslik {
+    margin-top: 0;
+    color: #4ADF86;
+}
+
+.container {
+box-sizing: border-box;
+
+position: absolute;
+width: 550px;
+height: 550px;
+left: 62px;
+top: 64px;
+
+background: #1F2937;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#h4 {
+    color: #D5D4D8;
+    margin-left: 50px;
+    margin-top: 10px
+}
+
+#button1 {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 17px 9px 15px;
+gap: 12px;
+color: white;
+
+position: absolute;
+width: 191px;
+height: 42px;
+left: 52px;
+top: 284px;
+
+background: #10B981;
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+}
+
+#button2 {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 17px 9px 15px;
+gap: 12px;
+color: black;
+font-weight: bolder;
+position: absolute;
+width: 191px;
+height: 42px;
+left: 280px;
+top: 284px;
+
+background: #E11D48;
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+}
+
+
+#line {
+    position: absolute;
+width: 446px;
+height: 0px;
+left: 52px;
+top: 361px;
+
+border: 1px solid #2F3E53;
+}
+
+#input-1 {
+position: absolute;
+width: 211px;
+height: 30px;
+left: 52px;
+top: 396px;
+
+background: #273549;
+border-radius: 5px;
+}
+
+
+#input-2 {
+position: absolute;
+width: 211px;
+height: 30px;
+left: 287px;
+top: 396px;
+
+background: #273549;
+border-radius: 6px;
+}
+
+#password-1 {
+    font-size: 14px;
+    color: #55F991;
+    color: #55F991;
+    position: absolute;
+    margin: 0;
+    margin-top: 7px;
+    left: 50px;
+    
+}
+
+#password-2 {
+    font-size: 14px;
+    left: 50px;
+    color: #55F991;
+    position: absolute;
+    margin: 0;
+    margin-top: 7px;
+
+
+}
+
+
